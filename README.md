@@ -1,7 +1,9 @@
 # MaintenanceCalculator
 
 ## Project Overview
-Project Name
+
+### Project Name
+
 The name of your project.
 
 Project Description
