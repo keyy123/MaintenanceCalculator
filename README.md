@@ -1,6 +1,6 @@
 # MaintenanceCalculator
 
-##H2 Project Overview
+## Project Overview
 Project Name
 The name of your project.
 
