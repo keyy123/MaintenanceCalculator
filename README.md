@@ -31,6 +31,12 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ![Wireframe - Maintenance Calculator](https://user-images.githubusercontent.com/30008919/125366237-b8f04480-e343-11eb-8e5e-17871f5d75fc.PNG)
 
+### Tablet
+--- 
+
+
+### Mobile
+--- 
 
 
 ## Component Hierarchy
