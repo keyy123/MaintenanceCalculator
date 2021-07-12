@@ -6,16 +6,16 @@
 
 The name of your project.
 
-Project Description
+### Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
 
-Wireframes
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+## Wireframes 
+Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe. -> use wireframe.cc or io
 
-Component Hierarchy
-Show your component hierarchy here! Use this as an example.
+## Component Hierarchy
+Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
 
-API and Data Sample
+## API and Data Sample
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This must be properly formatted. An example is below:
 
 ```[
@@ -50,10 +50,10 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
     "offset": "recA34tOaoE1IVeC1"
 }
 ```
-MVP/PostMVP
+## MVP/PostMVP
 The functionality will then be divided into two separate lists: MVP and PostMVP. Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.
 
-MVP
+### MVP
 These are examples only. Replace with your own MVP features.
 
 Find and use external api
@@ -67,14 +67,15 @@ Use local storage to save user favorites
 Project Schedule
 This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
-Day	Deliverable	Status
-July 10-12	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
-July 13	Project Approval	Incomplete
-July 13	Core Application Structure (HTML, CSS, etc.)	Incomplete
-July 14	Pseudocode / actual code	Incomplete
-July 15	Initial Clickable Model	Incomplete
-July 16	MVP	Incomplete
-July 17	Presentations	Incomplete
+Day |	Deliverable | Status       |
+----|---------------|--------------|
+July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete|
+July 13 | Project Approval | Incomplete|
+July 13 | Core Application Structure (HTML, CSS, etc.) | Incomplete|
+July 14 | Pseudocode / actual code | Incomplete|
+July 15 | Initial Clickable Model |Incomplete|
+July 16 | MVP | Incomplete|
+July 17 | Presentations | Incomplete|
 Timeframes
 Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
