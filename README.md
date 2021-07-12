@@ -38,6 +38,10 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 ![Wireframe - Maintenance Calculator- Calculator tblet](https://user-images.githubusercontent.com/30008919/125368753-f99e8c80-e348-11eb-8567-d54189572a41.PNG)
 
 
+![Wireframe - Maintenance Calculator-Home-Tblt](https://user-images.githubusercontent.com/30008919/125368999-631e9b00-e349-11eb-998c-3898f9b4b72f.PNG)
+
+
+
 ### Mobile
 --- 
 ![Wireframe - Maintenance Calculator-Home-Mobile](https://user-images.githubusercontent.com/30008919/125367320-ef2ec380-e345-11eb-8227-245299e20c8e.PNG)
