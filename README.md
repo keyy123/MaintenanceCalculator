@@ -1,6 +1,4 @@
-![Wireframe - Maintenance Calculator- Calculator-Mobile](https://user-images.githubusercontent.com/30008919/125367872-fe624100-e346-11eb-9ad7-5321e4726b65.PNG)
-![Wireframe - Maintenance Calculator- Calculator-Mobile](https://user-images.githubusercontent.com/30008919/125367893-0ae69980-e347-11eb-96e3-de97148bfb47.PNG)
-![Wireframe - Maintenance Calculator- Mobile](https://user-images.githubusercontent.com/30008919/125367999-4aad8100-e347-11eb-8cb1-eb2dba03db82.PNG)
+
 # _Maintenance Calculator_ (aka The Lunk-inator)
 
 
