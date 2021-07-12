@@ -8,6 +8,7 @@
 Maintenance Calculator 
 
 ### Project Description
+--- 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
 
 This project is a maintenance calculator which calculates the caloric intake needed to maintain an individual's current body weight indefinitely. The reasons for this project are Meal preps are not possible without knowing how the body react to a certain level of caloric intake. This tool uses the user's weight and caloric intake for a certain number of days to calculate their maintainance intake which can be used for the user to begin meal prep or reference.  
