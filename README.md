@@ -1,4 +1,4 @@
-# _Maintenance Calculator_
+# _Maintenance Calculator_ (aka The Lunk-inator)
 
 
 ## Project Overview
