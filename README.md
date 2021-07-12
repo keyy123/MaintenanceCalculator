@@ -12,11 +12,12 @@ Use this section to describe your final project and perhaps any links to relevan
 
 This project is a maintenance calculator which calculates the caloric intake needed to maintain an individual's current body weight indefinitely. The reasons for this project are Meal preps are not possible without knowing how the body react to a certain level of caloric intake. This tool uses the user's weight and caloric intake for a certain number of days to calculate their maintainance intake which can be used for the user to begin meal prep or reference.  
 
-[Maintenance/eucaloric diet/ energy balance - 1] https://jcdfitness.com/2017/09/maintenance-calories/
+- [Maintenance/eucaloric diet/ energy balance - 1] https://jcdfitness.com/2017/09/maintenance-calories/
 
-[Maintenance/eucaloric diet/energy balance - 2] https://pubmed.ncbi.nlm.nih.gov/23671029/
+- [Maintenance/eucaloric diet/energy balance - 2] https://pubmed.ncbi.nlm.nih.gov/23671029/
 
-[Maintenance/eucaloric diet/energy balance - 3] https://en.wikipedia.org/wiki/Weight_management
+- [Maintenance/eucaloric diet/energy balance - 3] https://en.wikipedia.org/wiki/Weight_management
+
 ## Wireframes 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe. -> use wireframe.cc or io
 
