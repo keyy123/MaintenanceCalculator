@@ -16,8 +16,7 @@ Show your component hierarchy here! Use this as an example.
 API and Data Sample
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This must be properly formatted. An example is below:
 
-{
-    "records": [
+```[
         {
             "id": "recONRzIUTuZ5lXaF",
             "fields": {
