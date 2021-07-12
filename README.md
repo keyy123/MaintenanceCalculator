@@ -24,6 +24,7 @@ References:
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe. -> use wireframe.cc or io
 
 ### Desktop
+--- 
 
 
 ![Wireframe - Maintenance Calculator-Home](https://user-images.githubusercontent.com/30008919/125366757-c0fcb400-e344-11eb-9ebd-a0ce8a7ff845.PNG)
