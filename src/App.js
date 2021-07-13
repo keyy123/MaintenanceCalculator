@@ -4,6 +4,7 @@ import{Route} from 'react-router-dom'
 import Header  from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Content from './Components/Content/Content';
+import Calculator from './Components/Pages/Calculator';
 
 
 
@@ -11,11 +12,7 @@ import Content from './Components/Content/Content';
 
 function App() {
 
- 
-
-
-  
-  return (
+   return (
     <div className="App">
       <header className="App-header">
         
@@ -24,7 +21,10 @@ function App() {
         <Route exact path="/">
         <Content />
         </Route>
-        
+        <Route exact path="/calculator">
+        <Calculator/>
+         </Route>
+      
         <Footer />
         
       </header>
