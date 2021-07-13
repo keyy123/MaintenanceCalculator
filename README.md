@@ -152,7 +152,7 @@ These are examples only. Replace with your own MVP features.
 
 Day |	Deliverable | Status       |
 ----|---------------|--------------|
-July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests *Commit on every step that increases progress*  |[]|
+July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests (*Commit on every step that increases progress even a bit*)  |[]|
 July 14 | Responsive Design (Desktop and Mobile), CSS, and npmjs shopping and implementation -> Airtable documentation surfing and implementation  |[]|
 July 15 | Debugging, Linting, Refactoring, MVP -> Use Issue Ticket on Specific Sticking Point (4/5) |[]|
 July 16 | Post-MVP: Heavy Customization(Experimental API) & Adv. Styling, Issue Ticket on Specific Sticking Point (3/5)|[]|
