@@ -32,14 +32,15 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ![Wireframe - Maintenance Calculator](https://user-images.githubusercontent.com/30008919/125366237-b8f04480-e343-11eb-8e5e-17871f5d75fc.PNG)
 
+<!-- 
 ### Tablet
---- 
+
 
 ![Wireframe - Maintenance Calculator- Calculator tblet](https://user-images.githubusercontent.com/30008919/125368753-f99e8c80-e348-11eb-8567-d54189572a41.PNG)
 
 
 ![Wireframe - Maintenance Calculator-Home-Tblt](https://user-images.githubusercontent.com/30008919/125368999-631e9b00-e349-11eb-998c-3898f9b4b72f.PNG)
-
+ -->
 
 
 ### Mobile
@@ -52,6 +53,8 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ## Component Hierarchy
 Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
+
+![Component Hierarchy - Calculator](https://user-images.githubusercontent.com/30008919/125457876-98067441-0c11-44a4-88c4-f0b443452d16.PNG)
 
 ## API and Data Sample
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This must be properly formatted. An example is below:
@@ -89,31 +92,48 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 }
 ```
 ## MVP/PostMVP
-The functionality will then be divided into two separate lists: MVP and PostMVP. Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.
+--- 
 
 ### MVP
 These are examples only. Replace with your own MVP features.
 
-Find and use external api
-Render data on page
-Allow user to choose favorites
-PostMVP
-These are examples only. Replace with your own Post-MVP features.
+#### Planning & React
+---
+* Completely write out the README.md
+* Use CRA to make React App 
+* NPM Install react-router-dom and axios
+* Create 6 different components in react app
+* Make an organize react folder that programmer can understand
+* Use Axios to GET & POST data from/to airtable
+* Use only react to chnage DOM (No HTML nor JS append methods)
+* Remember have a minimum of 20 commits total (Save your game often)
 
-Add second API
-Use local storage to save user favorites
-Project Schedule
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
+#### Styling 
+--- 
+* Use some sort of styling (CSS, Styled Components, CSS-in-JS, or Component Library*tailwind?*)
+* Use flexbox or CSS grid to style page (unless component library does this)
+* Add responsive design for 2 screen sizes via media query (desktop and mobile - unless component library handles this too)
+
+#### Linting 
+---
+* Indent properly 
+* Use semantic variable names when appropriate
+* use camelCase, kebab-case adn PascalCase when necessary
+* remove unneeded boilerplate react and code
+* remove all console.log() and commented out code (functional notes and comments are ok to stay)
+
+
 
 Day |	Deliverable | Status       |
 ----|---------------|--------------|
-July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete|
-July 13 | Project Approval | Incomplete|
-July 13 | Core Application Structure (HTML, CSS, etc.) | Incomplete|
-July 14 | Pseudocode / actual code | Incomplete|
-July 15 | Initial Clickable Model |Incomplete|
-July 16 | MVP | Incomplete|
-July 17 | Presentations | Incomplete|
+July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests *Commit on every step that increases progress*  |[]|
+July 14 | Responsive Design (Desktop and Mobile), CSS, and npmjs shopping and implementation -> Airtable documentation surfing and implementation  |[]|
+July 15 | Debugging, Linting, Refactoring, MVP -> Use Issue Ticket on Specific Sticking Point (4/5) |[]|
+July 16 | Post-MVP: Heavy Customization(Experimental API) & Adv. Styling, Issue Ticket on Specific Sticking Point (3/5)|[]|
+July 17 | Post-MVP: Additional Customizations(Airtable, Axios patch...), Use Issue Ticket on Specific Sticking Point (2/5)|[]|
+July 18 | Post-MVP: Additional Customizations from P1 Project, Use Issue Ticket on Specific Sticking Point (1/5) |[]|
+July 19 | Complete README.md -> SWOT Analysis & Brag-worthy code, Use Issue Ticket on Specific Sticking Point (0/5), Practice Presentation| [] |
+July 20 | Presentations | []|
 
 
 ## Timeframes
