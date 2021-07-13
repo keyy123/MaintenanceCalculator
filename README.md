@@ -99,28 +99,54 @@ These are examples only. Replace with your own MVP features.
 
 #### Planning & React
 ---
-* Completely write out the README.md
+
+*  Completely write out the README.md
+
 * Use CRA to make React App 
+
 * NPM Install react-router-dom and axios
+
 * Create 6 different components in react app
+
 * Make an organize react folder that programmer can understand
+
 * Use Axios to GET & POST data from/to airtable
+ 
 * Use only react to chnage DOM (No HTML nor JS append methods)
+
 * Remember have a minimum of 20 commits total (Save your game often)
 
 #### Styling 
 --- 
-* Use some sort of styling (CSS, Styled Components, CSS-in-JS, or Component Library*tailwind?*)
+
+* Use some sort of styling (CSS, Styled Components, CSS-in-JS, or Component Library *tailwind?*)
+
 * Use flexbox or CSS grid to style page (unless component library does this)
+
 * Add responsive design for 2 screen sizes via media query (desktop and mobile - unless component library handles this too)
 
 #### Linting 
 ---
+
 * Indent properly 
+
 * Use semantic variable names when appropriate
+
 * use camelCase, kebab-case adn PascalCase when necessary
+
 * remove unneeded boilerplate react and code
+
 * remove all console.log() and commented out code (functional notes and comments are ok to stay)
+
+#### Post-MVP
+
+*  Adv. CSS Styling (Be sure to leave sources just in case)
+ 
+* NPMJS Shopping and Implementation (Because why not...)
+ 
+* Experimental API implementation (from P1 and 1 more...)
+
+
 
 
 
@@ -137,16 +163,24 @@ July 20 | Presentations | []|
 
 
 ## Timeframes
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle. You have limited time to code all parts of your app. Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
+<!--  Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly. -->
 
 Component|Priority|Estimated Time|Time Invested | Actual Time |
 ---------|--------|--------------|--------------|-------------|
-Adding Form| H |3hrs | 3.5hrs | 3.5hrs |
-Working with API | H | 3hrs | 2.5hrs | 2.5hrs |
-Total | H | 6hrs | 5hrs | 5hrs |
-
+Complete README.md - project proposal| H |3hrs | 2hrs | 2hrs |
+Clone down REPO + CRA + Install Deps(i, react-router-dom, axios)+ Psuedo-Code + Build Components  | H | 2hrs | 0hrs | 0hrs |
+Building Custom AirTable + Read Docs| H |5hrs | 0hrs | 0hrs |
+Make a get + form + post request | H |5hrs | 0hrs | 0hrs |
+Responsive Design | H |3hrs | 0hrs | 0hrs |
+Debug/Refactoring| H |5hrs | 0hrs | 0hrs |
+Post-MVP: Adv. Styling| M |5hrs | 1hrs | 1hrs |
+Post-MVP: Experimental API| M |3hrs | 0hrs | 0hrs |
+Post-MVP: AirTable Customization| M |3hrs | 0hrs | 0hrs |
+Post-MVP: Axios.put or patch| M |3hrs | 0hrs | 0hrs |
+Post-MVP: Add customizations from P1 Prjoect| M |3hrs | 0hrs | 0hrs |
+Post-MVP: NPMJS Shopping & Implementation| M |5hrs | 0hrs | 0hrs |
+Netilify Deployment | H |3hrs | 0hrs | 0hrs |
+Total | H | 51hrs | 2hrs | 2hrs |
 
 ## SWOT Analysis
 ### Strengths:
