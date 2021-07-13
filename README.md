@@ -60,35 +60,38 @@ Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
 Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This must be properly formatted. An example is below:
 
 ```[
+     {
+    "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "reczpTLdRCcDlllEB",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "days": 1,
+                "weight(lbs)": 201,
+                "kcal/d": 2000
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-07-13T13:59:49.000Z"
         },
         {
-            "id": "rec3oYZ5Tp0AIDsKe",
+            "id": "recvY0mhObdGVIihb",
             "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
+                "days": 2,
+                "weight(lbs)": 200,
+                "kcal/d": 2000
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-07-13T13:59:49.000Z"
         },
         {
-            "id": "recA34tOaoE1IVeC1",
+            "id": "recocoa9prF1BeBTe",
             "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
+                "days": 3,
+                "weight(lbs)": 200,
+                "kcal/d": 2000
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-07-13T14:30:00.000Z"
         }
     ],
-    "offset": "recA34tOaoE1IVeC1"
+    "offset": "recocoa9prF1BeBTe"
+}
 }
 ```
 ## MVP/PostMVP
