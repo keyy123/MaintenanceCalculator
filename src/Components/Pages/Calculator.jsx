@@ -1,24 +1,38 @@
 import React from 'react'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import log from 'loglevel'
 
 export default function Calculator() {
   const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
   const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
-  const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records\ `
-  const[data,setData] = useState()
+  const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records \ `
+  const[data,setData] = useState([])
 
   useEffect(() => {
     async function apiCall() {
-      const res = await axios.get(baseURL, {headers:{Authorization: `Bearer${AIRTABLE_KEY}` } })
-      console.log(res)
+      const res = await axios.get(baseURL, {headers:{Authorization: `Bearer ${AIRTABLE_KEY}` } })
+      setData(res.data.records)
     }
     apiCall()
   },[])
 
+
   return (
     <div>
-      Math
+      {data?.map((log, index) => {
+        for(let i = 0; i < index.length; i++ ){
+          const timePeriod = Math.MAX(log.fields?.days)
+          console.log(timePeriod)
+        }
+        return(
+          <div key={log.id}>
+            
+          <h2>{log.fields?.days}</h2>
+          <h2>{log.fields?.kcal}</h2>
+          <h2>{log.fields?.lbs}</h2>
+          </div>
+      )})}
     </div>
   )
 }
