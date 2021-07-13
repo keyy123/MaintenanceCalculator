@@ -22,7 +22,7 @@ References:
 - [Maintenance/eucaloric diet/energy balance - 3] https://en.wikipedia.org/wiki/Weight_management
 
 ## Wireframes 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe. -> use wireframe.cc or io
+
 
 ### Desktop
 --- 
@@ -57,7 +57,6 @@ Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
 ![Component Hierarchy - Calculator](https://user-images.githubusercontent.com/30008919/125457876-98067441-0c11-44a4-88c4-f0b443452d16.PNG)
 
 ## API and Data Sample
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This must be properly formatted. An example is below:
 
 ```[
      {
@@ -98,7 +97,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 --- 
 
 ### MVP
-These are examples only. Replace with your own MVP features.
+
 
 #### Planning & React
 ---
