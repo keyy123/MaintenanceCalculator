@@ -5,8 +5,8 @@ import Header  from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Content from './Components/Content/Content';
 import Calculator from './Components/Pages/Calculator';
-
-
+import {Row, Col} from 'react-materialize'
+import NaviBar from './Components/Navigation/NaviBar';
 
 
 
@@ -14,9 +14,19 @@ function App() {
 
    return (
     <div className="App">
-      <header className="App-header">
-        
-        <Header />
+      
+       <Row>
+         <Col
+         l='7'
+         >
+           <Header />
+         </Col>
+         <Col
+           l='5'
+         >
+           <NaviBar />
+           </Col>
+      </Row>
 
         <Route exact path="/">
         <Content />
@@ -27,7 +37,6 @@ function App() {
       
         <Footer />
         
-      </header>
     </div>
   );
 }

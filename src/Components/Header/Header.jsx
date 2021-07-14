@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar  from '../Navigation/Navbar'
+
 export default function Header() {
   return (
-    <div>
-      Header
-      <Navbar />
-    </div>
+<>
+   
+      <h1 className="header-text">The Lunk-i-nator 3000</h1>
+       
+       
+      </>
   )
 }

@@ -1,3 +1,8 @@
+body{
+  height: 80%;
+}
+
+
 .App {
   text-align: center;
 }
@@ -28,6 +33,7 @@
   color: #61dafb;
 }
 
+/*Modal Section */
 #Modal-0{
   position: fixed;
   margin: 10%;
@@ -69,6 +75,30 @@ div.modal-footer{
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
+/*Header Section*/
+
+#root > div > div.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightsteelblue;
+}
+
+#root > div > div.row > div.col.l5 > div > a:nth-child(2){
+padding-left: 20%;  
+}
+
+/*Footer Section*/
+
+div.site-footer{
+  position: fixed;
+  width: 100vw;
+  background: lightsteelblue;
+
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
