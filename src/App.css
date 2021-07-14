@@ -111,8 +111,9 @@ div.site-footer{
   
   div#Modal-0.modal.open{
     margin: 0 auto;
-    margin: 10%;
-    border-radius: 1%, 5%, 1%;
+    margin-top: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
   }
  
   div.modal-content > h4{
@@ -136,6 +137,7 @@ div.site-footer{
       padding-bottom: 1%;
     }
 
+    
 }
 
 @keyframes App-logo-spin {

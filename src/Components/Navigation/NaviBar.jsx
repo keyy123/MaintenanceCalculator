@@ -8,8 +8,8 @@ export default function NaviBar() {
       {/* <Modals /> Replace with a specific nav bar */}
       
       <Link to="/">Home</Link>
-
       
+
       <Link to="/calculator">Calculator</Link>
       
   

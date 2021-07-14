@@ -21,6 +21,7 @@ export default function Modals() {
               endingTop: '10%',
               opacity: 0.5,
               startingTop: '4%'
+              
             }}
             header="Instructions Field"
             trigger={trigger}
