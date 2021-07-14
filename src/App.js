@@ -17,12 +17,14 @@ function App() {
       
        <Row>
          <Col
-         l='7'
+         l='12'
          >
            <Header />
          </Col>
+         </Row>
+        <Row>
          <Col
-           l='5'
+           l='12'
          >
            <NaviBar />
            </Col>

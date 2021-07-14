@@ -85,7 +85,7 @@ div.modal-footer{
   background-color: lightsteelblue;
 }
 
-#root > div > div.row > div.col.l5 > div > a:nth-child(2){
+#root > div > div.row > div.col.l12 > div > a:nth-child(2){
 padding-left: 20%;  
 }
 
@@ -93,11 +93,47 @@ padding-left: 20%;
 
 div.site-footer{
   position: fixed;
+  bottom:0;
   width: 100vw;
   background: lightsteelblue;
 
 }
 
+/*Media Query - Galaxy Fold - 280 x 653 */
+@media screen and (max-width: 280px ) {
+  #Modal-0{
+    position: fixed;
+    margin: 10%;
+    margin-top:50%;
+    z-index:1;
+    background: white;
+  }
+  
+  div#Modal-0.modal.open{
+    margin: 0 auto;
+    margin: 10%;
+    border-radius: 1%, 5%, 1%;
+  }
+ 
+  div.modal-content > h4{
+    background-color: lightskyblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+  }
+  h4{
+    text-align: center;
+  }
+  div.modal-content{
+    color: goldenrod;
+    }
+    
+    div.modal-footer{
+      background-color: lightskyblue;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+}
 
 @keyframes App-logo-spin {
   from {
