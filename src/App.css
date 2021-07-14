@@ -129,10 +129,13 @@ div.site-footer{
     }
     
     div.modal-footer{
+      display: flex;
+      justify-content: center;
       background-color: lightskyblue;
       padding-top: 1%;
       padding-bottom: 1%;
     }
+
 }
 
 @keyframes App-logo-spin {
