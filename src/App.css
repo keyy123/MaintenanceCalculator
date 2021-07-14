@@ -158,6 +158,7 @@ div.site-footer{
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+      height: 24vh;
     }
 
     #root > div > div:nth-child(3) > p{
