@@ -146,7 +146,14 @@ div.site-footer{
     #root > div > div:nth-child(3) > div > div > button{
       height: 26px;
       margin-top: 50%;
-    }   
+    }  
+    
+    div.Columns {
+      height: 25vh;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; 
+    }
 }
 
 @keyframes App-logo-spin {
