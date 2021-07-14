@@ -85,8 +85,8 @@ let Arr3 = []
     let averageIntake = Math.floor(sum / day)
       let maintenanceAdjustmentPercent = weight / day
       const onePound = 3500
-      const kcalAdjustment = (maintenanceAdjustmentPercent) * onePound
-      const maintenanceIntake = kcalAdjustment * averageIntake 
+      const kcalAdjustment = Math.abs((maintenanceAdjustmentPercent)) * onePound
+      const maintenanceIntake = kcalAdjustment + (averageIntake) 
       return maintenanceIntake 
 }
 
@@ -98,6 +98,7 @@ let Arr3 = []
       <p>{data.length > 0 ? `The number of days at this intake is: ${day}` : null }</p>
       <p>{`Average daily intake is: ${Math.floor(sum / day)}`}</p>
       <p>{`Weight change for the period is: ${weight}`}</p>
+      <p>{`This is your maintenance calories for the period: ${calculation()}`}</p>
     </div>
   )
 }
