@@ -99,6 +99,12 @@ div.site-footer{
 
 }
 
+#root > div > div:nth-child(3) > div{
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  align-content: space-around;
+}
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
   #Modal-0{
@@ -148,11 +154,20 @@ div.site-footer{
       margin-top: 50%;
     }  
     
-    div.Columns {
-      height: 25vh;
+    #root > div > div:nth-child(3) > div{
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap; 
+      flex-wrap: wrap;
+    }
+
+    #root > div > div:nth-child(3) > p{
+      position: fixed;
+
+
+    }
+    #root > div > div:nth-child(3) > div.Columns > div {
+      height: 20px;
+      width: 50%;
     }
 }
 
