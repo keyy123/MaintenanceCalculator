@@ -88,10 +88,11 @@ let Arr3 = []
 
   return (
     <div>
-      <p>{sum > 0 ? `The sum of your daily intakes is ${sum}` : null}</p>
+      {/* <p>{sum > 0 ? `The sum of your daily intakes is ${sum}` : null}</p>
       <p>{data.length > 0 ? `The number of days at this intake is: ${day}` : null }</p>
       <p>{`Average daily intake is: ${Math.floor(sum / day)}`}</p>
-      <p>{`Weight change for the period is: ${weight}`}</p>
+      <p>{`Weight change for the period is: ${weight}`}</p> */}
+      <p>{`${data.fields.days} - ${data.fields.lbs}`}</p>
       <p>{`This is your maintenance calories for the period: ${calculation()}`}</p>
     </div>
   )

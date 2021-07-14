@@ -143,7 +143,10 @@ div.site-footer{
       justify-content: center;
       height: 70vw;
     }
-    
+    #root > div > div:nth-child(3) > div > div > button{
+      height: 26px;
+      margin-top: 50%;
+    }   
 }
 
 @keyframes App-logo-spin {
