@@ -24,7 +24,6 @@ let Arr3 = []
       setNewArr((newArr) => [...newArr, log.fields.kcal])
      
     })
-    // setToggle(prevToggle => !prevToggle)
   }
 
   function highestDay(x) {
@@ -74,12 +73,7 @@ let Arr3 = []
 
   //  let sum = newArr.reduce((a, b) => { a + b })
   //  console.log(sum)
-  
-  function kcalSum(num) {
-    let total = 0;
-    total += num
-    return total
-  }
+
   
     function calculation() {
     let averageIntake = Math.floor(sum / day)
@@ -103,9 +97,5 @@ let Arr3 = []
   )
 }
 
-//   )
-// }
-// */
-//   )
-// }
 
+//logic still shifts between numbers...I'm going to need to fix that so its more user-friendly
