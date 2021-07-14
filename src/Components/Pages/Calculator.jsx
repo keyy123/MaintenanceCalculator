@@ -81,23 +81,27 @@ let Arr3 = []
     return total
   }
   
-  // function calculation() {
-  //   let averageIntake = Math.floor(sum / day)
-  //   let kcalAdjustment = 3500 * ()
-
-  // }
+    function calculation() {
+    let averageIntake = Math.floor(sum / day)
+      let maintenanceAdjustmentPercent = weight / day
+      const onePound = 3500
+      const kcalAdjustment = (maintenanceAdjustmentPercent) * onePound
+      const maintenanceIntake = kcalAdjustment * averageIntake 
+      return maintenanceIntake 
+}
 
 
 
   return (
     <div>
-      <h1>{sum > 0 ? sum : null}</h1>
-      <p>{data.length > 0 ? day : null }</p>
+      <p>{sum > 0 ? `The sum of your daily intakes is ${sum}` : null}</p>
+      <p>{data.length > 0 ? `The number of days at this intake is: ${day}` : null }</p>
       <p>{`Average daily intake is: ${Math.floor(sum / day)}`}</p>
-      <p>{weight}</p>
+      <p>{`Weight change for the period is: ${weight}`}</p>
     </div>
   )
 }
+
 //   )
 // }
 // */
