@@ -28,7 +28,8 @@ export default function Details() {
     // eslint-disable-next-line
   }, [])
  
- 
+ //finished linting
+
   async function handleSubmit(e) {
     e.preventDefault()
       await axios.patch(`${baseURL}/${id}`, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
