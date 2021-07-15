@@ -97,13 +97,14 @@ export default function Calculator() {
   //  let sum = newArr.reduce((a, b) => { a + b })
   //  console.log(sum)
 
-  
+  console.log(weight)
+
   function calculation() {
     let averageIntake = Math.floor(sum / day)
     let maintenanceAdjustmentPercent = weight / day
     const onePound = 3500
     let kcalAdjustment = 0
-    weight < 0 ? kcalAdjustment = Math.abs((maintenanceAdjustmentPercent)) * onePound: kcalAdjustment = maintenanceAdjustmentPercent * onePound  
+    weight > 0 ? kcalAdjustment = Math.abs((maintenanceAdjustmentPercent)) * onePound: kcalAdjustment = maintenanceAdjustmentPercent * onePound  
     const maintenanceIntake = kcalAdjustment + (averageIntake)
     return maintenanceIntake
   }

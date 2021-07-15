@@ -19,8 +19,8 @@ export default function WeightLog() {
 
 async function handleSubmit(e) {
   e.preventDefault()
-    const res = await axios.post(baseURL, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
-    console.log(res)
+  await axios.post(baseURL, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
+    
   }
   return (
     <div>
