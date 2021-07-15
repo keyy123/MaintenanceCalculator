@@ -10,7 +10,7 @@ export default function Calculator() {
 
 
 
-  const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records?sort%5B0%5D%5Bfield%5D=days\ `
+  const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records?sort%5B0%5D%5Bfield%5D=days `
   
   
   
@@ -33,14 +33,14 @@ export default function Calculator() {
 
   function sumKcal(x) {
     x?.map((log) => {
-      setNewArr((newArr) => [...newArr, log.fields.kcal])
+     return  setNewArr((newArr) => [...newArr, log.fields.kcal])
      
     })
   }
 
   function highestDay(x) {
     x?.map((log) => {
-      Arr2.push(log.fields.days)
+     return  Arr2.push(log.fields.days)
      
     }
     )
@@ -49,17 +49,17 @@ export default function Calculator() {
 
   function weightChange(x) {
     x?.map((log) => {
-      Arr3.push(log.fields.lbs)
+      return Arr3.push(log.fields.lbs)
     })
     setWeight(Arr3[0] - (Arr3[Arr3.length - 1]))
   }
 
-  function sortDay(x) {
-    x?.map((log) => {
-      Arr2.push(log.fields.days)
-    })
+  // function sortDay(x) {
+  //   x?.map((log) => {
+  //    return Arr2.push(log.fields.days)
+  //   })
 
-  }
+  // }
   
   
   
@@ -74,7 +74,7 @@ export default function Calculator() {
       setToggle(prevToggle => !prevToggle)
     }
     apiCall()
-   
+   // eslint-disable-next-line
   }, [])
 
   useEffect(() => {
@@ -84,12 +84,13 @@ export default function Calculator() {
     weightChange(data)
     setToggleFetch(prevToggleFetch => !prevToggleFetch)
   }
+    // eslint-disable-next-line
     , [toggle])
 
   useEffect(() => {
     if (newArr.length > 0) {
       setSum(newArr.reduce((a, b) => a + b))
-    }
+    }// eslint-disable-next-line
   }, [toggleFetch])
 
 
@@ -101,7 +102,8 @@ export default function Calculator() {
     let averageIntake = Math.floor(sum / day)
     let maintenanceAdjustmentPercent = weight / day
     const onePound = 3500
-    const kcalAdjustment = Math.abs((maintenanceAdjustmentPercent)) * onePound
+    let kcalAdjustment = 0
+    weight < 0 ? kcalAdjustment = Math.abs((maintenanceAdjustmentPercent)) * onePound: kcalAdjustment = maintenanceAdjustmentPercent * onePound  
     const maintenanceIntake = kcalAdjustment + (averageIntake)
     return maintenanceIntake
   }

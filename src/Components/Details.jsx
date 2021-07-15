@@ -7,7 +7,7 @@ export default function Details() {
   
   const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
   const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
-  const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records\ `
+  const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records `
   const {id} = useParams()
 
     const [lbs, setLbs] = useState(0)
@@ -24,14 +24,14 @@ export default function Details() {
       setKcal(data.fields?.kcal)
       setLbs(data.fields?.lbs)
     }
-    apiCall()
+    return () => apiCall()
+    // eslint-disable-next-line
   }, [])
  
  
   async function handleSubmit(e) {
     e.preventDefault()
-    console.log(fields)
-      const res = await axios.patch(`${baseURL}/${id}`, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
+      await axios.patch(`${baseURL}/${id}`, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
   
     }
     return (

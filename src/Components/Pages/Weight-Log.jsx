@@ -5,7 +5,7 @@ import { useState} from 'react'
 
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
-const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records\ `
+const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records `
 
 
 
