@@ -102,9 +102,21 @@ div.site-footer{
 #root > div > div:nth-child(3) > div{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   height: 25vh;
   align-content: space-around;
 }
+
+#root > div > div:nth-child(3) > p{
+  position: relative;
+  
+}
+
+/* #root > div > div:nth-child(3) > div.Columns > div {
+  height: 20px;
+  width: 50%;
+
+} */
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
   #Modal-0{

@@ -7,7 +7,7 @@ import Content from './Components/Content/Content';
 import Calculator from './Components/Pages/Calculator';
 import {Row, Col} from 'react-materialize'
 import NaviBar from './Components/Navigation/NaviBar';
-
+import WeightLog from './Components/Pages/Weight-Log';
 
 
 function App() {
@@ -35,7 +35,10 @@ function App() {
         </Route>
         <Route exact path="/calculator">
         <Calculator/>
-         </Route>
+       </Route>
+       <Route exact path="/weightlog">
+        <WeightLog/>
+       </Route>
       
         <Footer />
         
