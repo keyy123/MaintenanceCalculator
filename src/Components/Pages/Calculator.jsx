@@ -112,7 +112,7 @@ export default function Calculator() {
   <div>
   <div className = 'Columns'>
       {data.map((log) => {
-        return (<div>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal}</div>)
+        return (<Link to={`/weightlog/${log.id}`}>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal}</Link>)
         })
       }
     </div>  

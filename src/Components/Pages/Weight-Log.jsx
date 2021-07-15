@@ -37,6 +37,7 @@ async function handleSubmit(e) {
         value={lbs}
           onChange={(e) => setLbs(e.target.value)} />
         <button>Add New Entry</button>
+        
     </form>
     </div>
   )
