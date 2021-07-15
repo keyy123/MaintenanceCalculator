@@ -81,7 +81,7 @@ div.modal-footer{
 #root > div > div.row {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   background-color: lightsteelblue;
 }
 
@@ -95,8 +95,8 @@ div.site-footer{
   position: fixed;
   bottom:0;
   width: 100vw;
-  background: lightsteelblue;
-
+  background: crimson;
+color:white;
 }
 
 #root > div > div:nth-child(3) > div{
@@ -127,11 +127,70 @@ div.site-footer{
 color: black;
 }
 
-#root > div > div:nth-child(1) > div > a{
+a.site-header > a{
   text-decoration: none;
-  color: White;
+  color: white;
+  float: left; 
 }
 
+#root > div > div.row > div > div{
+  width: 100vw;
+}
+
+#root > div > div >div> div > a{
+  margin: 0% 1%; 
+  text-decoration: none;
+  color: white;
+}
+
+div.header-img{
+width: 100vw;
+height: 200px;
+}
+
+div.site-footer{
+  width:100vw;
+}
+
+#root > div > div.row > div > div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: crimson;
+}
+
+svg.site-logo{
+  color:black;
+  float: left;
+  align-items: center;
+  width: 3%;
+  height: 3%;
+  border-left-width: 2%;
+  margin-left: 2%;
+}
+
+div.site-nav > a{
+  position: relative;
+}
+
+a.link.Home{
+  left: 15%;
+}
+
+a.link.Calculator{
+  left: 30%;
+}
+
+a.link.Weightlog{
+  left: 45%;
+}
+
+#root > div > div:nth-child(2) > div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 162px;
+}
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
   #Modal-0{
@@ -168,6 +227,7 @@ color: black;
       background-color: lightskyblue;
       padding-top: 1%;
       padding-bottom: 1%;
+
     }
 
     #root > div > div:nth-child(3) > div > div{
@@ -197,6 +257,7 @@ color: black;
       height: 20px;
       width: 50%;
     }
+ 
 }
 
 @keyframes App-logo-spin {
