@@ -117,6 +117,21 @@ div.site-footer{
   width: 50%;
 
 } */
+
+#root > div > div.site-footer > address > a:hover{
+ color: white;
+ text-decoration: none; 
+}
+
+#root > div > div.site-footer > address > a:active{
+color: black;
+}
+
+#root > div > div:nth-child(1) > div > a{
+  text-decoration: none;
+  color: White;
+}
+
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
   #Modal-0{
