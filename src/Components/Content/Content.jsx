@@ -11,11 +11,13 @@ export default function Content() {
       <div className="content p">
 
       
-        <Modals />
-        <button><FcCalculator/>Calculator</button>
+          <Modals />
+        
+        
+          </div>
       </div>
-      </div>
-     
+      <button className="calcBtn"><FcCalculator/>Calculator</button>
+          
  
 </>         
   )
