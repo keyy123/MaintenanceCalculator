@@ -1,5 +1,6 @@
 body{
   height: 80%;
+  font-size: 18px;
 }
 
 
@@ -42,10 +43,18 @@ body{
   background: white;
 }
 
-div#Modal-0.modal.open{
-  margin: 0 auto;
-  margin: 10%;
-  border-radius: 1%, 5%, 1%;
+div.Modal-Container{
+  z-index: 1003;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  /* top: 10%; */
+  transform: scaleX(1) scaleY(1);
+  margin: 0;
+  height: 40vh;
+  width: 100%;
+  top: 0%;  
+  background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -185,11 +194,54 @@ a.link.Weightlog{
   left: 45%;
 }
 
+div > a.calcLink{
+  color:black;
+}
+
 #root > div > div:nth-child(2) > div{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 162px;
+}
+
+#Modal-0{
+  z-index: 1003;
+  display: block;
+  opacity: 1;
+  top: 0px;
+  transform: scaleX(1) scaleY(1);
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+#Modal-0 > div.modal-content{
+  position: relative;
+  top: 45%;
+}
+
+#Modal-0 > div.modal-footer{
+  position: relative;
+  top: 55%;
+}
+
+#root > div > div.content.p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+
+}
+
+#root > div > div.content.p > p {
+  margin-top: 10%;
+  width: 60vw;
+  font-size: 2rem;
 }
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {

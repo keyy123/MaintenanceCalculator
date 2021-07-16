@@ -12,19 +12,23 @@ export default function Modals() {
         <Col className="instruction-field"
         s={6}
         >
+      
           <Modal
             actions={[<Button className="close" flat modal="close" node="button" waves="green">Close</Button>]}
            
             open={true}
             options={{
-              endingTop: '10%',
-              opacity: 0.5,
-              startingTop: '4%',
+              dismissible: true,
+              endingTop: '0%',
+              inDuration: 250,
               onCloseEnd: null,
               onCloseStart: null,
               onOpenEnd: null,
               onOpenStart: null,
-              
+              opacity: 0.5,
+              outDuration: 250,
+              preventScrolling: true,
+              startingTop: '0%'
             }}
             header= {<Text family="Archivo Black">Instructions Field</Text>}
             // trigger={trigger}
@@ -41,7 +45,9 @@ export default function Modals() {
                 </p>
                 </Font>
               
-          </Modal>
+            </Modal>
+            
+            
           </Col>
   </Row>    
       </>

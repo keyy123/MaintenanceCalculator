@@ -1,7 +1,8 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
-
+import WeightLog from './Weight-Log'
+import {AiFillEdit, AiFillDelete} from 'react-icons/ai'
 export default function Calculator() {
   //global variables
   const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
@@ -112,10 +113,16 @@ export default function Calculator() {
   
 
   return (
-  <div>
+    <div>
+      <WeightLog/>
   <div className = 'Columns'>
       {data.map((log) => {
-        return (<Link to={`/weightlog/${log.id}`}>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal}</Link>)
+        return (
+        <>
+            <Link to={`/weightlog/${log.id}`}>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal} <AiFillEdit /><AiFillDelete onSubmit={ }/></Link>
+       </>
+            
+        )
         })
       }
     </div>  
