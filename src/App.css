@@ -149,7 +149,17 @@ a.site-header > a{
 #root > div > div >div> div > a{
   margin: 0% 1%; 
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+#root > div > div > div > div > a:nth-child(1):active {
+text-decoration: none;
+color: yellow;
+}
+
+#root > div > div > div > div > a:hover{
+text-decoration: none;
+color:rgba(0, 0, 0, 0.5)
 }
 
 div.header-img{
@@ -198,12 +208,7 @@ div > a.calcLink{
   color:black;
 }
 
-#root > div > div:nth-child(2) > div{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 162px;
-}
+
 
 #Modal-0{
   z-index: 1003;
@@ -230,18 +235,34 @@ div > a.calcLink{
   top: 55%;
 }
 
-#root > div > div.content.p{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
 
+
+#root > div > div > div.content.p  {
+  width: 60vw;
+  font-size: 1.5rem;
+  line-height: 150%;
+    background: url(https://images.unsplash.com/photo-1543353071-c953d88f7033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx) fixed no-repeat center;
+  background-size: 80vw;
+  opacity: 0.5;
 }
 
-#root > div > div.content.p > p {
-  margin-top: 10%;
-  width: 60vw;
-  font-size: 2rem;
+#root > div > div.content.bg {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#root > div > div.content.bg > div > button{
+  
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: salmon;
+    cursor: pointer;
 }
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {

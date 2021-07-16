@@ -1,25 +1,39 @@
+//import statements 
 import React from 'react'
 import axios from 'axios'
 import { useState, useEffect} from 'react'
 import { useParams, useHistory } from 'react-router'
+// import { useParams } from 'react-router'
+
+
 export default function Details() {
-  
   
   const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
   const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
   const baseURL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/weigh-in%20records `
   const {id} = useParams()
-const history = useHistory()
-    const [lbs, setLbs] = useState(0)
+  const history = useHistory()
+ 
+  
+  
+  //States 
+  const [lbs, setLbs] = useState(0)
   const [kcal, setKcal] = useState(0)
   const [data, setData] = useState([])
-    const fields = {
-      kcal,
-      lbs
-    };
+  
+  //Field 
+  const fields = {
+    kcal,
+    lbs
+  };
+
+
+
+
+
   useEffect(() => {
     async function apiCall() {
-      const res = await axios.get(`${baseURL}/${id}`, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
+      const res = await axios.get(`${baseURL}/${ id }`, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
       setData(res.data)
       setKcal(data.fields?.kcal)
       setLbs(data.fields?.lbs)
@@ -28,11 +42,11 @@ const history = useHistory()
     // eslint-disable-next-line
   }, [])
  
- //finished linting
+ 
 
   async function handleSubmit(e) {
     e.preventDefault()
-      await axios.patch(`${baseURL}/${id}`, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
+      await axios.patch(`${baseURL}/${ id }`, { fields }, { headers:{Authorization: `Bearer ${AIRTABLE_KEY}`}})
     history.push("/calculator")
   }
   
@@ -57,7 +71,7 @@ const history = useHistory()
           name="lbs"
           value={lbs}
             onChange={(e) => setLbs(e.target.valueAsNumber)} />
-          <button>Add New Entry</button>
+          <button>Update Entry</button>
           <button onClick={handleDelete}>Delete Entry</button>
           
       </form>

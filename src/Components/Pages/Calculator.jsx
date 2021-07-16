@@ -2,11 +2,14 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import WeightLog from './Weight-Log'
-import {AiFillEdit, AiFillDelete} from 'react-icons/ai'
+import { AiFillEdit} from 'react-icons/ai'
+
+
 export default function Calculator() {
   //global variables
   const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
   const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
+
 
 
 
@@ -41,11 +44,9 @@ export default function Calculator() {
 
   function highestDay(x) {
     x?.map((log) => {
-     return  Arr2.push(log.fields.days)
-     
-    }
-    )
-    setDay(Math.max(...Arr2))
+     return  Arr2.push(log.fields.lbs)
+    })
+    setDay(Arr2.length)
   }
 
   function weightChange(x) {
@@ -54,6 +55,7 @@ export default function Calculator() {
     })
     setWeight(Arr3[0] - (Arr3[Arr3.length - 1]))
   }
+
 
   // function sortDay(x) {
   //   x?.map((log) => {
@@ -110,17 +112,18 @@ export default function Calculator() {
     return maintenanceIntake
   }
 
-  
+
 
   return (
     <div>
       <WeightLog/>
   <div className = 'Columns'>
-      {data.map((log) => {
+      {data.map((log,index) => {
         return (
         <>
-            <Link to={`/weightlog/${log.id}`}>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal} <AiFillEdit /><AiFillDelete /></Link>
-            {/* //onSubmit */}
+            <Link to=
+{`/weightlog/${log.id}`} key={log.id}>{ `Entry ${index + 1} - ${log.fields.lbs} - ${log.fields.kcal}`}<AiFillEdit/> </Link>
+          
        </>
             
         )
