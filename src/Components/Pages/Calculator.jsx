@@ -117,18 +117,22 @@ export default function Calculator() {
   return (
     <div>
       <WeightLog/>
-  <div className = 'Columns'>
-      {data.map((log,index) => {
+        <div className='Columns'>
+        <table>
+        {data.map((log,index) => {
         return (
-        <>
+         
+          <>
+        
             <Link to=
 {`/weightlog/${log.id}`} key={log.id}>{ `Entry ${index + 1} - ${log.fields.lbs} - ${log.fields.kcal}`}<AiFillEdit/> </Link>
-          
+         
        </>
-            
+      
         )
         })
-      }
+          }
+           </table>
     </div>  
       <p>{`This is your maintenance calories for the period: ${calculation()}`}</p>
     </div>
