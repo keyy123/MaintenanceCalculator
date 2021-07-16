@@ -119,14 +119,26 @@ export default function Calculator() {
       <WeightLog/>
         <div className='Columns'>
         <table>
+          <tr>
+            <th>Entries</th>
+            <th>Weight (lbs)</th>
+            <th>Kcal Intake</th>
+          </tr>
+         
         {data.map((log,index) => {
         return (
          
           <>
-        
-            <Link to=
-{`/weightlog/${log.id}`} key={log.id}>{ `Entry ${index + 1} - ${log.fields.lbs} - ${log.fields.kcal}`}<AiFillEdit/> </Link>
-         
+            <tr>
+              <Link to={`/weightlog/${log.id}`} key={log.id}>
+                {
+                  <>
+                  <td className="table entry">{index + 1}</td>
+                  <td className="table weight">{log.fields.lbs}</td>
+                  <td className="table intake">{log.fields.kcal}</td>
+                  </>
+                } <AiFillEdit /> </Link>
+         </tr>  
        </>
       
         )
