@@ -21,9 +21,6 @@ export default function NaviBar() {
           <Link to="/calculator" className="link Calculator ">
             <Text family='Archivo Narrow'>Calculator</Text>
           </Link>
-          <Link to="/weightlog" className="link Weightlog">
-            <Text family= 'Archivo Narrow'>Weight-Log</Text>
-            </Link>
             </div>
          </Font>
       

@@ -119,7 +119,8 @@ export default function Calculator() {
       {data.map((log) => {
         return (
         <>
-            <Link to={`/weightlog/${log.id}`}>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal} <AiFillEdit /><AiFillDelete onSubmit={ }/></Link>
+            <Link to={`/weightlog/${log.id}`}>{log.fields.days}, {log.fields.lbs}, {log.fields.kcal} <AiFillEdit /><AiFillDelete /></Link>
+            {/* //onSubmit */}
        </>
             
         )
