@@ -318,7 +318,9 @@ td,th {
 
 }
 
-table > tr:nth-child(even){background-color: blanchedalmond;}
+ a > td:nth-child(odd){
+  background-color: blanchedalmond;
+}
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
   #Modal-0{
