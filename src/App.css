@@ -299,7 +299,7 @@ bottom: 0px;
 }
 
 table, th, td {
-  border: 1px solid yellow
+  border: 1px solid blanchedalmond;
 }
 
  table{
@@ -313,6 +313,12 @@ table, th, td {
   flex-direction: column;
 }
 
+td,th {
+  display: flex;
+
+}
+
+table > tr:nth-child(even){background-color: blanchedalmond;}
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
   #Modal-0{
