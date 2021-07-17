@@ -7,7 +7,9 @@ export default function Header() {
     <>
     
       <Link to="/">
-        <Font family = "Archivo Black">
+      
+        <Font family="Archivo Black">
+        <img src='./img/LUNK1.png' className="site-logo"/>
           <h1 className="header-text"> The Lunk-i-nator 3000 </h1>
         </Font>
       </Link>

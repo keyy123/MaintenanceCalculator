@@ -8,8 +8,9 @@ export default function NaviBar() {
 <>    
     
       <Font family='Archivo Black'>
-      <div className="site-nav">
-        <img src='./img/LUNK.png' className="site-logo"/>
+        <div className="site-nav">
+          
+        {/* <img src='./img/LUNK1.png' className="site-logo"/> */}
           <Link to="/" className="site-header">
             <Header />
             

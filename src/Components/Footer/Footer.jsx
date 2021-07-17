@@ -14,7 +14,7 @@ export default function Footer() {
            
             <p id="contact-info"> Contact me at the following:<br/>Irvington NJ <br/> 973-123-4567 <br /> hi</p>
             <p id="contact-links">
-            <p> If you want to shoot the breeze on all things fitness and nutrition related contact me using the links below</p>
+            <p>  Contact me using the links below</p>
               <a href="https://github.com/keyy123/MaintenanceCalculator/"><AiFillGithub value={{ className: 'react-icons GH' }} /></a>
               <a href="https://www.linkedin.com/in/kheyyon-parker-b98739179/"><AiFillLinkedin value={{className: 'react-icons LI'}}/></a>
               <a href="mailto:kheyyon.parker@gmail.com"><AiFillMail value={{ className: 'react-icons mail' }} /></a>

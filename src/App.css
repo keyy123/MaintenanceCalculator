@@ -273,6 +273,10 @@ div > a.calcLink{
 
 img.site-logo{
   height: 20vh;
+  float: left;
+  border-radius: 15px;
+  width: 6vw;
+  height: 6vw;
 }
 
 button.calcBtn{
@@ -361,6 +365,15 @@ div#contact-me{
  #something{
   height: 100px;
   flex-basis: 33%;
+}
+
+h1.header-text{
+  width:30vw;
+
+}
+
+#root > div > div.row > div > div > a.site-header > a > div{
+  display: flex;
 }
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
