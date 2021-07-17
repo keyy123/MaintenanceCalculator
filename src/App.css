@@ -169,7 +169,7 @@ height: 200px;
 
 div.site-footer{
   width:100vw;
-  height: 120px;
+  height: 30vh;
 }
 
 #root > div > div.row > div > div{
@@ -303,9 +303,16 @@ table, th, td {
 }
 
  table{
-  width: 100%;
+  
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 50%;
+  right: 0px;
+  left: 1210.6;
+  left: 25%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
  tr > a{
@@ -320,6 +327,19 @@ td,th {
 
  a > td:nth-child(odd){
   background-color: blanchedalmond;
+}
+
+#root > div > div:nth-child(2) > p{
+  margin-bottom: 3%;
+  margin-top: 0px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+a > svg {
+  width: 2vw;
+  height: 2vw;
 }
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
