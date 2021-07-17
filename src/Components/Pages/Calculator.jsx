@@ -130,14 +130,14 @@ export default function Calculator() {
          
           <>
             <tr>
-              <Link to={`/weightlog/${log.id}`} key={log.id}>
+             
                 {
                   <>
                   <td className="table entry">{index + 1}</td>
                   <td className="table weight">{log.fields.lbs}</td>
                   <td className="table intake">{log.fields.kcal}</td>
                   </>
-                } <AiFillEdit /> </Link>
+                }  <Link to={`/weightlog/${log.id}`} key={log.id}><AiFillEdit /> </Link>
          </tr>  
        </>
       

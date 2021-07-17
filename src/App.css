@@ -169,7 +169,7 @@ height: 200px;
 
 div.site-footer{
   width:100vw;
-  height: 30vh;
+  
 }
 
 #root > div > div.row > div > div{
@@ -340,6 +340,27 @@ td,th {
 a > svg {
   width: 2vw;
   height: 2vw;
+}
+
+div#contact-me{
+  display: flex;
+  height:200px;
+}
+
+
+#contact-info{
+  height: 100px;
+  flex-basis: 33%;
+} 
+ 
+#contact-links{
+  height: 100px;
+  flex-basis: 33%;
+} 
+
+ #something{
+  height: 100px;
+  flex-basis: 33%;
 }
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
