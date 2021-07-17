@@ -177,6 +177,7 @@ div.site-footer{
   align-items: center;
   justify-content: flex-start;
   background-color: crimson;
+  width: 101.1vw;
 }
 
 svg.site-logo{
@@ -254,7 +255,7 @@ div > a.calcLink{
   height: 100vh;
   display: flex;
   justify-content: center;
-
+  width: 100vw;
 }
 
 /* #root > div > div.content.bg > div > button{
