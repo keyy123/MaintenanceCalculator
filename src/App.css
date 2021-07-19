@@ -103,7 +103,6 @@ padding-left: 20%;
 div.site-footer{
   position: relative;
   bottom:0;
-  width: 100vw;
   background: crimson;
 color:white;
 }
@@ -168,7 +167,7 @@ height: 200px;
 }
 
 div.site-footer{
-  width:100vw;
+  width:100.5vw;
   
 }
 
@@ -243,11 +242,36 @@ div > a.calcLink{
   width: 60vw;
   font-size: 1.5rem;
   line-height: 150%;
-    background: url(https://images.unsplash.com/photo-1543353071-c953d88f7033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx) fixed no-repeat center;
+    background: url(https://images.unsplash.com/photo-1543353071-c953d88f7033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx) no-repeat center;
   background-size: 80vw;
-  opacity: 0.4;
+  
   height: 100vh;
   
+}
+
+section.banner::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 1;
+  z-index: 0;
+}
+
+.banner{
+  position: relative;
+  bottom: 24px;
+  height: 100vh;
+}
+
+section.banner > p{
+ position:relative;
+  z-index: 10;
+  color: white;
+  top: 10%;
 }
 
 #root > div > div.content.bg {
@@ -255,7 +279,7 @@ div > a.calcLink{
   height: 100vh;
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 100.5vw;
 }
 
 /* #root > div > div.content.bg > div > button{
@@ -273,11 +297,11 @@ div > a.calcLink{
 } */
 
 img.site-logo{
-  height: 20vh;
+  
   float: left;
   border-radius: 15px;
-  width: 6vw;
-  height: 6vw;
+  width: 10vw;
+  height: 12vh;
 }
 
 button.calcBtn{
@@ -295,6 +319,19 @@ button.calcBtn{
   background-color: salmon;
   cursor: pointer;
   z-index: 5;
+  border: 0px;
+  font-size:larger;
+  width: 10vw;
+  height: 5vh;
+}
+
+button.calcBtn :hover {
+  color: salmon;
+  opacity: 0.9;
+}
+
+button:hover{
+  opacity: 0.9;
 }
 
 #root > div > div.site-footer > address > div:nth-child(1) > p{
@@ -343,8 +380,8 @@ td,th {
 }
 
 a > svg {
-  width: 2vw;
-  height: 2vw;
+  width: 3vw;
+  height: 6vw;
 }
 
 div#contact-me{
@@ -369,7 +406,7 @@ div#contact-me{
 }
 
 h1.header-text{
-  width:30vw;
+  width:100%;
 
 }
 
