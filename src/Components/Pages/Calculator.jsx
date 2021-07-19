@@ -100,7 +100,7 @@ export default function Calculator() {
   //  let sum = newArr.reduce((a, b) => { a + b })
   //  console.log(sum)
 
-  console.log(weight)
+  
 
   function calculation() {
     let averageIntake = Math.floor(sum / day)

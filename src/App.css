@@ -378,7 +378,39 @@ h1.header-text{
 }
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
-  #Modal-0{
+body{
+  display: flex;
+  height: 75vh;
+}
+
+div.site-nav{
+  height: 100%;
+  width: 100vw;
+}
+
+#root > div > div.row > div > div > a.site-header > a > div > img{
+ width: 15%;
+ height:5vh;
+}
+
+#root > div > div.row > div > div > a.site-header > a > div{
+  display: flex;
+  align-items: center;
+  height: 30%;
+}
+
+h1.header-text{
+  font-size: 0.4rem;
+}
+
+#root > div > div.row > div > div > a.link{
+  font-size: 0.4rem;
+}
+
+#root > div > div.content.bg{
+  width: 101.1vw;
+}
+  /* #Modal-0{
     position: fixed;
     margin: 10%;
     margin-top:50%;
@@ -443,7 +475,7 @@ h1.header-text{
       width: 50%;
     }
  
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -452,4 +484,5 @@ h1.header-text{
   to {
     transform: rotate(360deg);
   }
+}
 }
