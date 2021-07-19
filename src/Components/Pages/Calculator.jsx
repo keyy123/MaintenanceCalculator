@@ -129,7 +129,7 @@ export default function Calculator() {
         return (
          
           <>
-            <tr className = "table rows">
+            <tr className = "table rows" key={index}>
              
                 {
                   <>

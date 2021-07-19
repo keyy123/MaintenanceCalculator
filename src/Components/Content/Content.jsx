@@ -14,9 +14,10 @@ export default function Content() {
           <Modals />
         
         
-          </div>
+        </div>
+        <Link to="/calculator"><button className="calcBtn"><FcCalculator/></button></Link> 
       </div>
-     <Link to="/calculator"><button className="calcBtn"><FcCalculator/>Calculator</button></Link> 
+     
           
  
 </>         

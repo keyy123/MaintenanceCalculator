@@ -11,10 +11,10 @@ export default function NaviBar() {
         <div className="site-nav">
           
         {/* <img src='./img/LUNK1.png' className="site-logo"/> */}
-          <Link to="/" className="site-header">
+          
             <Header />
             
-          </Link>
+          
           
           <Link to="/" className="link Home">
             <Text family='Archivo Narrow'>Home</Text>

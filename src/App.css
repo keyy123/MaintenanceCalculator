@@ -167,16 +167,16 @@ height: 200px;
 }
 
 div.site-footer{
-  width:100.5vw;
+  width: 125vw;
   
 }
 
 #root > div > div.row > div > div{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: crimson;
-  width: 101.1vw;
+  width: 151vw;
 }
 
 svg.site-logo{
@@ -194,11 +194,11 @@ div.site-nav > a{
 }
 
 a.link.Home{
-  left: 15%;
+  left: 10%;
 }
 
 a.link.Calculator{
-  left: 30%;
+  left: 15%;
 }
 
 a.link.Weightlog{
@@ -285,7 +285,7 @@ section.banner > p{
   height: 100vh;
   display: flex;
   justify-content: center;
-  width: 100.5vw;
+  width: 125vw;
 }
 
 /* #root > div > div.content.bg > div > button{
@@ -307,14 +307,14 @@ img.site-logo{
   float: left;
   border-radius: 15px;
   width: 10vw;
-  height: 12vh;
+  height: 20vh;
 }
 
 button.calcBtn{
- height: 44px;
- bottom: 0px;
- left: 48vw;
+  height: 44px;
+  bottom: -112px;
   left: 48vw;
+  left: 58vw;
   position: absolute;
   border-radius: 15px;
   padding-left: 10px;
@@ -326,7 +326,7 @@ button.calcBtn{
   cursor: pointer;
   z-index: 5;
   border: 0px;
-  font-size:larger;
+  font-size: larger;
   width: 10vw;
   height: 5vh;
 }
@@ -334,6 +334,12 @@ button.calcBtn{
 button.calcBtn :hover {
   color: salmon;
   opacity: 0.9;
+}
+
+#root > div > div.row > div > div > a:nth-child(1) > div{
+  font-family: "Archivo Black";
+  display: flex;
+  align-items: center; 
 }
 
 button:hover{
@@ -437,13 +443,18 @@ div#contact-me{
 }
 
 h1.header-text{
-  width:100%;
-
+ 
+  width: 71%;
+  margin-left: 100px;
 }
 
 #root > div > div.row > div > div > a.site-header > a > div{
   display: flex;
 }
+
+/* #root > div > div.row > div > div > a.site-header{
+  display: flex;
+} */
 
 /*Calculator Page*/
 
@@ -522,7 +533,9 @@ height: 98.5vh;
 }
 
 h1.header-text{
-  font-size: 0.39rem;
+  font-size: 0.30rem;
+  width: 40%;
+  padding: 51px;
 }
 
 #root > div > div.row > div > div > a.link{
@@ -591,6 +604,22 @@ section.banner > p{
   top: 10%;
 }
 
+#contact-links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+Button.calcBtn{
+  width:34vw;
+}
+
+Button:hover{
+  opacity: 0.7;
+}
+
 #root > div > div.row > div > div > a{
   color: white;
   
@@ -599,6 +628,14 @@ section.banner > p{
 tr > a > svg{
   width: 20px;
   height: 2.5vh
+}
+
+
+#root > div > div.row > div > div > a:nth-child(1) > div > img.site-logo{
+  float: left;
+  border-radius: 15px;
+  width: 20vw;
+  height: 10vh;
 }
 
 #root > div > div:nth-child(2) > div:nth-child(1) > form{
