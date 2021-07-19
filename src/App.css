@@ -381,35 +381,118 @@ h1.header-text{
 body{
   display: flex;
   height: 75vh;
+  font-size: 13px;
+}
+#root > div > div.row > div{
+  width: 120vw;
 }
 
-div.site-nav{
+#root > div > div > div.content.p{
+width: 100vw;
+position: relative;
+font-size: 1.25rem;
+opacity: 1;
+line-height: 150%;
+background: url(https://images.unsplash.com/photo-1543353071-c953d88f7033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx) center no-repeat;
+background-size: cover;
+height: 98.5vh;
+}
+
+#root > div > div.row > div > div.site-nav{
   height: 100%;
-  width: 100vw;
+  width: 120vw;
 }
 
 #root > div > div.row > div > div > a.site-header > a > div > img{
- width: 15%;
- height:5vh;
+ width: 50%;
+ height:14vh;
 }
 
 #root > div > div.row > div > div > a.site-header > a > div{
   display: flex;
   align-items: center;
+  width: 60vw;
   height: 30%;
 }
 
 h1.header-text{
-  font-size: 0.4rem;
+  font-size: 0.39rem;
 }
 
 #root > div > div.row > div > div > a.link{
   font-size: 0.4rem;
 }
 
-#root > div > div.content.bg{
-  width: 101.1vw;
+a.link.Calculator > p{
+  position: relative;
+  left: 50%;
 }
+
+#root > div > div.content.bg{
+  width: 120vw;
+}
+
+#root > div > div.content.bg > div{
+  line-height: 85%;
+  padding-top: 10px;
+}
+
+#root > div > a > button{
+  border: 0px;
+  height: 5%;
+  bottom: 12vh;
+  left: 45vw;
+}
+
+#root > div > div.content.bg > div > div > div > div > p{
+position: relative;
+color: white;
+font-size: 0.5rem;
+z-index: 10000;
+}
+
+#root > div > div.site-footer{
+  width: 120vw;
+}
+
+#contact-me > p{
+  margin-top: 15%;
+}
+
+section.banner::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 1;
+  z-index: 0;
+}
+
+.banner{
+  position: relative;
+  bottom: 20px;
+  height: 100vh;
+}
+
+section.banner > p{
+ position:relative;
+  z-index: 10;
+  color: white;
+  font-size: x-small;
+  top: 10%;
+}
+
+#root > div > div.row > div > div > a{
+  color: white;
+  
+}
+
+/* #root > div > div.row > div > div > a > p {
+  font-size: xx-small;
+} */
   /* #Modal-0{
     position: fixed;
     margin: 10%;
