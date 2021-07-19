@@ -135,9 +135,9 @@ export default function Calculator() {
                   <>
                   <td className="table entry">{index + 1}</td>
                   <td className="table weight">{log.fields.lbs}</td>
-                  <td className="table intake">{log.fields.kcal}</td>
+                  <td className="table intake">{log.fields.kcal} {<Link to={`/weightlog/${log.id}`} key={log.id}><AiFillEdit /> </Link> }</td>
                   </>
-                }  <Link to={`/weightlog/${log.id}`} key={log.id}><AiFillEdit /> </Link>
+                }  
          </tr>  
        </>
       

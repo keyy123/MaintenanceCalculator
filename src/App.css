@@ -364,10 +364,10 @@ table, th, td {
 
 td,th {
   display: flex;
-
+  flex-basis: 33%;
 }
 
- a > td:nth-child(odd){
+ tr:nth-child(odd){
   background-color: blanchedalmond;
 }
 
@@ -413,6 +413,42 @@ h1.header-text{
 #root > div > div.row > div > div > a.site-header > a > div{
   display: flex;
 }
+
+/*Calculator Page*/
+
+#root > div > div:nth-child(2) > div:nth-child(1) > form{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  position: relative;
+  /* right: 37px; */
+  align-items: center;
+}
+
+#root > div > div:nth-child(2) > div:nth-child(1) > h3{
+  
+    position: relative;
+    /* right: 30px; */
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr.table.headers{
+  display: flex;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table{
+  flex-direction: column;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr.table.rows{
+display: flex;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr > td.table.intake > a > svg{
+  width: 1vw;
+  height: 2vh;
+}
+
+
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
 body{
