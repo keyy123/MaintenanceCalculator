@@ -502,14 +502,14 @@ tr > a > svg{
   align-self: center;
   flex-direction: column;
   position: relative;
-  right: 37px;
+  /* right: 37px; */
   align-items: center;
 }
 
 #root > div > div:nth-child(2) > div:nth-child(1) > h3{
   
     position: relative;
-    right: 30px;
+    /* right: 30px; */
 }
 
 #root > div > div:nth-child(2) > div.Columns > table > tr.table.headers{
