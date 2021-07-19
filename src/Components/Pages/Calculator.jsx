@@ -100,7 +100,7 @@ export default function Calculator() {
   //  let sum = newArr.reduce((a, b) => { a + b })
   //  console.log(sum)
 
-  
+  console.log(weight)
 
   function calculation() {
     let averageIntake = Math.floor(sum / day)
@@ -119,7 +119,7 @@ export default function Calculator() {
       <WeightLog/>
         <div className='Columns'>
         <table>
-          <tr>
+          <tr className = "table headers">
             <th>Entries</th>
             <th>Weight (lbs)</th>
             <th>Kcal Intake</th>
@@ -129,7 +129,7 @@ export default function Calculator() {
         return (
          
           <>
-            <tr>
+            <tr className = "table rows">
              
                 {
                   <>

@@ -383,6 +383,8 @@ body{
   height: 75vh;
   font-size: 13px;
 }
+
+
 #root > div > div.row > div{
   width: 120vw;
 }
@@ -490,6 +492,45 @@ section.banner > p{
   
 }
 
+tr > a > svg{
+  width: 20px;
+  height: 2.5vh
+}
+
+#root > div > div:nth-child(2) > div:nth-child(1) > form{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  position: relative;
+  right: 37px;
+  align-items: center;
+}
+
+#root > div > div:nth-child(2) > div:nth-child(1) > h3{
+  
+    position: relative;
+    right: 30px;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr.table.headers{
+  display: flex;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table{
+  flex-direction: column;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr.table.rows{
+display: flex;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr.table.rows > td.table.entry{
+  width: 26%;
+}
+
+#root > div > div:nth-child(2) > div.Columns > table > tr.table.rows > td.table.weight{
+  width: 21vw;
+}
 /* #root > div > div.row > div > div > a > p {
   font-size: xx-small;
 } */

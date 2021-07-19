@@ -36,13 +36,13 @@ async function handleSubmit(e) {
         name="kcal"
           value={kcal}
           type="number"
-        onChange={(e) => setKcal(e.target.valueAsNumber)} />
-      <label>weight (lbs)</label>
+        onChange={(e) => setKcal(e.target.valueAsNumber)} /><br/>
+      <label>weight(lbs)</label>
       <input
           name="lbs"
           value={lbs}
           type="number"
-          onChange={(e) => setLbs(e.target.valueAsNumber)} />
+          onChange={(e) => setLbs(e.target.valueAsNumber)} /><br/>
         <button>Add New Entry</button>
     </form>
     </div>
