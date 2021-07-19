@@ -249,6 +249,12 @@ div > a.calcLink{
   
 }
 
+
+#root > div > div.row > div > div > a{
+  color: white;
+  
+}
+
 section.banner::after{
   content: "";
   position: absolute;
