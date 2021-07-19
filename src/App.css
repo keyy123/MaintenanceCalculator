@@ -362,13 +362,38 @@ table, th, td {
   flex-direction: column;
 }
 
+table{
+  border-collapse: collapse;
+}
+
 td,th {
   display: flex;
   flex-basis: 33%;
+  border: 1px solid #ca424b;
+  justify-content: center;
 }
 
  tr:nth-child(odd){
-  background-color: blanchedalmond;
+  background-color: #e63d48;
+}
+
+tr:nth-child(even){
+  background-color: #fcbdbd; 
+}
+tr:hover{
+  background-color: #fa5151;
+}
+
+tr{
+  text-align: center;
+}
+
+th{
+  padding-top:12px;
+  padding-bottom:12px;
+  text-align: center;
+  background-color:crimson;
+  color: white;
 }
 
 #root > div > div:nth-child(2) > p{
