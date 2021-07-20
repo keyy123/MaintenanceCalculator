@@ -154,7 +154,7 @@ Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
 
 Day |	Deliverable | Status       |
 ----|---------------|--------------|
-July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests (*Commit on every step that increases progress even a bit*)  |[]|
+July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests (*Commit on every step that increases progress even a bit*)  |[X]|
 July 14 | Responsive Design (Desktop and Mobile), CSS, and npmjs shopping and implementation -> Airtable documentation surfing and implementation  |[X]|
 July 15 | Debugging, Linting, Refactoring, MVP -> Use Issue Ticket on Specific Sticking Point (4/5) |[X]|
 July 16 | Post-MVP: Heavy Customization(Experimental API) & Adv. Styling, Issue Ticket on Specific Sticking Point (3/5)|[X]|
@@ -208,6 +208,8 @@ Total | H | 51hrs | 56hrs | 56hrs |
 * Strengthen my useEffect logic in React -> It could have been done in much less than what is here. 
 
 * Responsive design - I still struggled with making the page responsive as I wanted so I will be reviewing and learning more on it soon.
+
+* Psuedo-Coding: Do more of it
 
 ### Opportunities:
 
