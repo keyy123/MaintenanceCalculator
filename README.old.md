@@ -134,7 +134,7 @@ Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
 
 * Use semantic variable names when appropriate
 
-* use camelCase, kebab-case adn PascalCase when necessary
+* use camelCase, kebab-case and PascalCase when necessary
 
 * remove unneeded boilerplate react and code
 
@@ -154,14 +154,14 @@ Show your component hierarchy here! Use this as an example. -> Use Whimsical.com
 
 Day |	Deliverable | Status       |
 ----|---------------|--------------|
-July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests (*Commit on every step that increases progress even a bit*)  |[]|
-July 14 | Responsive Design (Desktop and Mobile), CSS, and npmjs shopping and implementation -> Airtable documentation surfing and implementation  |[]|
-July 15 | Debugging, Linting, Refactoring, MVP -> Use Issue Ticket on Specific Sticking Point (4/5) |[]|
-July 16 | Post-MVP: Heavy Customization(Experimental API) & Adv. Styling, Issue Ticket on Specific Sticking Point (3/5)|[]|
-July 17 | Post-MVP: Additional Customizations(Airtable, Axios patch...), Use Issue Ticket on Specific Sticking Point (2/5)|[]|
-July 18 | Post-MVP: Additional Customizations from P1 Project, Use Issue Ticket on Specific Sticking Point (1/5) |[]|
-July 19 | Complete README.md -> SWOT Analysis & Brag-worthy code, Use Issue Ticket on Specific Sticking Point (0/5), Practice Presentation| [] |
-July 20 | Presentations | []|
+July 13 | Prompt / Wireframes / Priority Matrix / Timeframes -> Project Approval -> Psuedo Code -> Component Creation -> Axios GET/POST Requests (*Commit on every step that increases progress even a bit*)  |[X]|
+July 14 | Responsive Design (Desktop and Mobile), CSS, and npmjs shopping and implementation -> Airtable documentation surfing and implementation  |[X]|
+July 15 | Debugging, Linting, Refactoring, MVP -> Use Issue Ticket on Specific Sticking Point (4/5) |[X]|
+July 16 | Post-MVP: Heavy Customization(Experimental API) & Adv. Styling, Issue Ticket on Specific Sticking Point (3/5)|[X]|
+July 17 | Post-MVP: Additional Customizations(Airtable, Axios patch...), Use Issue Ticket on Specific Sticking Point (2/5)|[X]|
+July 18 | Post-MVP: Additional Customizations from P1 Project, Use Issue Ticket on Specific Sticking Point (1/5) |[X]|
+July 19 | Complete README.md -> SWOT Analysis & Brag-worthy code, Use Issue Ticket on Specific Sticking Point (0/5), Practice Presentation| [X] |
+July 20 | Presentations | [X]|
 
 
 ## Timeframes
@@ -170,22 +170,59 @@ July 20 | Presentations | []|
 Component|Priority|Estimated Time|Time Invested | Actual Time |
 ---------|--------|--------------|--------------|-------------|
 Complete README.md - project proposal| H |3hrs | 2hrs | 2hrs |
-Clone down REPO + CRA + Install Deps(i, react-router-dom, axios)+ Psuedo-Code + Build Components  | H | 2hrs | 0hrs | 0hrs |
-Building Custom AirTable + Read Docs| H |5hrs | 0hrs | 0hrs |
-Make a get + form + post request | H |5hrs | 0hrs | 0hrs |
-Responsive Design | H |3hrs | 0hrs | 0hrs |
-Debug/Refactoring| H |5hrs | 0hrs | 0hrs |
+Clone down REPO + CRA + Install Deps(i, react-router-dom, axios)+ Psuedo-Code + Build Components  | H | 2hrs | 10+hrs | 10+hrs |
+Building Custom AirTable + Read Docs| H |5hrs | 10hrs+ | 10hrs+ |
+Make a get + form + post request | H |5hrs | 3hrs | 3hrs |
+Form logic for calculator |H| 2HRS | 8HRS | 8HRS
+Responsive Design | H |3hrs | 5hrs+ | 5hrs+ |
+Debug/Refactoring| H |5hrs | 10hrs+ | 10hrs+ |
 Post-MVP: Adv. Styling| M |5hrs | 1hrs | 1hrs |
 Post-MVP: Experimental API| M |3hrs | 0hrs | 0hrs |
 Post-MVP: AirTable Customization| M |3hrs | 0hrs | 0hrs |
-Post-MVP: Axios.put or patch| M |3hrs | 0hrs | 0hrs |
-Post-MVP: Add customizations from P1 Prjoect| M |3hrs | 0hrs | 0hrs |
-Post-MVP: NPMJS Shopping & Implementation| M |5hrs | 0hrs | 0hrs |
+Post-MVP: Axios.put or patch| M |3hrs | 2hrs | 2hrs |
+Post-MVP: Add customizations from P1 Prjoect| M |3hrs | 3hrs | 3hrs |
+Post-MVP: NPMJS Shopping & Implementation| M |5hrs | 2hrs | 2hrs |
 Netilify Deployment | H |3hrs | 0hrs | 0hrs |
-Total | H | 51hrs | 2hrs | 2hrs |
+Total | H | 51hrs | 56hrs | 56hrs |
 
 ## SWOT Analysis
+
 ### Strengths:
+
+* I was about to strengthen my CSS foundations during this project which helped during certain parts of the project week. 
+
+* I experimented with some simple React Libraies such as React font, icons, materialize, and I have another to try and master: Storybooks. I may be doing additional research on them to improve the project post-project week.
+
+* I did emphasize some visual design principles such as typography and even made a logo for the project. 
+ 
+ * I learned some new errors, what causes them, and how to debug them.
+
 ### Weaknesses:
+
+* I did not utilize props in an efficient way to create re-usable components the way that React was intended to be utilized so going forward I will practice making more efficient re-usable react components properly instead of hard-coding them so they can dynamically update when needed.
+
+* My airtable was extremely simple and I do regret not learning more about it on my own like a linked tables in air table so I can make an extrememly customized lifestyle application - I would like to learn more about airtable.
+
+* My organization for the CSS of each REACT component was lacking which lead to a very messy and disorienting CSS file moving forward it would be best to separate React components into individual folders with their corresponding CSS file 
+
+* Strengthen my useEffect logic in React -> It could have been done in much less than what is here. 
+
+* Responsive design - I still struggled with making the page responsive as I wanted so I will be reviewing and learning more on it soon.
+
+* Psuedo-Coding: Do more of it
+
 ### Opportunities:
+
+* I did have a chance to try out some simple react libraries such as react fonts, icons, materialize. I didn't master it yet but I am interested in learning storybooks for react since it can you to build very nice features to your website relatively quickly. I would also continue to build on the project utilizing other libraries like chartJS to add additional features to the website. I may need to update the air table.
+
+* I will be learning more about CSS animation and other unique add-ons to polish this project
+
+* I will be adding Voice Recognition API into this project as well or challenge myself utilizing about experimental API 
+
+
 ### Threats:
+
+* I need to remember that this project is not where I would like it to be so don't worry about how the project looks now and focus on what I can do to make this project something I would use at any moment if I had the chance.
+
+* Don't beat yourself up. You did a great job doing the first draft of this program so now we just need continue to build on it overtime.
+ 
