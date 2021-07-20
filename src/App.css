@@ -435,6 +435,8 @@ div#contact-me{
 #contact-links{
   height: 100px;
   flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
 } 
 
  #something{
@@ -490,7 +492,25 @@ display: flex;
   height: 2vh;
 }
 
+#root > div > div:nth-child(2) > div:nth-child(1) > h3{
+  position: relative;
+  left: 12%;
+}
 
+form{
+  position: relative;
+  left: 12%;  
+}
+
+div.Columns{
+  position: relative;
+  left: 12%;
+}
+
+#root > div > div:nth-child(2) > p{
+  position: relative;
+  left: 12%;
+}
 /*Media Query - Galaxy Fold - 280 x 653 */
 @media screen and (max-width: 280px ) {
 body{
@@ -606,7 +626,7 @@ section.banner > p{
 
 #contact-links{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 
