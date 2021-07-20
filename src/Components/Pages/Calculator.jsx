@@ -56,13 +56,6 @@ export default function Calculator() {
     setWeight(Arr3[0] - (Arr3[Arr3.length - 1]))
   }
 
-
-  // function sortDay(x) {
-  //   x?.map((log) => {
-  //    return Arr2.push(log.fields.days)
-  //   })
-
-  // }
   
   
   
@@ -73,7 +66,6 @@ export default function Calculator() {
     async function apiCall() {
       const res = await axios.get(baseURL, { headers: { Authorization: `Bearer ${AIRTABLE_KEY}` } })
       setData(res.data.records)
-      // sumKcal(data)
       setToggle(prevToggle => !prevToggle)
     }
     apiCall()
@@ -96,11 +88,6 @@ export default function Calculator() {
     }// eslint-disable-next-line
   }, [toggleFetch])
 
-
-  //  let sum = newArr.reduce((a, b) => { a + b })
-  //  console.log(sum)
-
-  console.log(weight)
 
   function calculation() {
     let averageIntake = Math.floor(sum / day)
